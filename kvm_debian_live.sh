@@ -5,6 +5,8 @@
 ## Distributed under the terms of the BSD 3-clause License.
 ## See the LICENSE file for details.
 
+set -e
+
 USB_DRIVE=$1
 ARGS=""
 
