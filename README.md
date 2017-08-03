@@ -5,10 +5,16 @@ Scripts to build a custom Debian USB live image with persistent and encrypted
 
 ## Pre-requisites
 
-OS tested:
-GNU/Linux Debian Stretch and testing.
+GNU/Linux Debian (Stretch or testing).
 
-The following packages need to be installed: live-build ovmf qemu-kvm
+The following packages need to be installed:
+ * `live-build`
+ * `ovmf`
+ * `qemu-kvm`
+
+Alternatively you can replace `live-build` package by
+`open-infrastructure-system-build` but it does not built image with UEFI support
+yet (as of 2017-08).
 
 ## Usage
 
