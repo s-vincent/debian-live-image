@@ -58,7 +58,7 @@ Modify the following to have a different language support:
 
 ## Links
 
- * https://github.com/debian-live
+ * http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html
  * http://forums.debian.net/viewtopic.php?t=95342&start=15 (maybe outdated)
  * https://lescahiersdudebutant.fr/tools/HOWTO-livebuild-stretch.pdf (in
  french)
