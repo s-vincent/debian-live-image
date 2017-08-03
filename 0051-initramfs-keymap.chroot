@@ -1,0 +1,12 @@
+#!/bin/sh
+
+set -e
+
+# Use keymap for initramfs
+if [ -e /etc/initramfs-tools/initramfs.conf ]
+then
+  sed -i 's/KEYMAP=n/KEYMAP=y/g' /etc/initramfs-tools/initramfs.conf
+  cp /etc/console-setup/cached_*.kmap.gz /etc/boottime.kmap.gz
+  sed -i 's/XKBLAYOUT=\"us\"/XKBLAYOUT=\"fr\"/g' /etc/default/keyboard
+fi
+
