@@ -62,6 +62,10 @@ Modify the following to have a different language support:
  * edit 0051-initramfs-keymap.chroot and replace "fr" by your desired XKB
  layout.
 
+## License
+
+All modules are under BSD-3 license.
+
 ## Links
 
  * http://debian-live.alioth.debian.org/live-manual/stable/manual/html/live-manual.en.html
