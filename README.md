@@ -64,7 +64,7 @@ Modify the following to have a different language support:
 
 ## License
 
-All modules are under BSD-3 license.
+All code are under BSD-3 license.
 
 ## Links
 
