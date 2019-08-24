@@ -49,7 +49,7 @@ To remove cache:
 
 ## Limitations
 
-Currently the produced image is built from Debian stable and will be localized
+Currently the produced image is built from Debian buster and will be localized
 in french.
 
 To build from Debian sid:

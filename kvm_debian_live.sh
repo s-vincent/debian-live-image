@@ -28,5 +28,6 @@ then
   ARGS="--bios /usr/share/ovmf/OVMF.fd"
 fi
 
-kvm -usbdevice disk:${USB_DRIVE}2 -m 2G -k fr ${USB_DRIVE} ${ARGS}
+echo qemu-system-x86_64 -enable-kvm ${ARGS} -m 2G -k fr -usb -drive file=${USB_DRIVE},media=disk,driver=raw 
+qemu-system-x86_64 -enable-kvm ${ARGS} -m 2G -k fr -usb -drive file=${USB_DRIVE},media=disk,driver=raw 
 

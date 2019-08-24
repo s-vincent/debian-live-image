@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+if [ -e /etc/cryptsetup-initramfs/conf-hook ]
+then
+  sed -i 's/#CRYPTSETUP=/CRYPTSETUP=y/g' /etc/cryptsetup-initramfs/conf-hook
+fi

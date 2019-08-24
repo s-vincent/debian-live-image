@@ -45,7 +45,7 @@ then
   HOME_SIZE=""
 fi
 
-if [ -z "${HOME_SIZE##*.*}" ]
+if [ ! -z "${HOME_SIZE}" -a -z "${HOME_SIZE##*.*}" ]
 then
   echo "Size must not contains dot";
   echo "To specify dotted size (i.e. 1.5G), use other unit (i.e. 1500M)"
