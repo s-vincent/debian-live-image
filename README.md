@@ -5,7 +5,7 @@ Scripts to build a custom Debian USB live image with persistent and encrypted
 
 ## Pre-requisites
 
-GNU/Linux Debian (Stretch or testing).
+GNU/Linux Debian (stable or testing).
 
 The following packages need to be installed:
  * `live-build`
@@ -53,7 +53,7 @@ Currently the produced image is built from Debian buster and will be localized
 in french.
 
 To build from Debian sid:
- * edit build\_debian\_live.sh and replace "--distribution stretch" by 
+ * edit build\_debian\_live.sh and replace "--distribution buster" by
  "--distribution sid".
 
 Modify the following to have a different language support:
